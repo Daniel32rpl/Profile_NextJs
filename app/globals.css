@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1b6187;
+  --foreground: #0FFCBE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1b6187;
+    --foreground: #ededed;
+  }
+}
+
+html, body{
+  background-color: var(--background);
+  scroll-behavior: smooth;
+}
